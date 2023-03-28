@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "netlify deploy --dir=./dist -p -m git log -1 --pretty=%B"
   },
   "dependencies": {
     "react": "^18.2.0",
