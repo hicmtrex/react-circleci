@@ -2,7 +2,7 @@ repo_name: hicmtrex/react-circleci
 report_id: e7b795a523068ce19c1ed72fa3bbb3aa
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-21T15:33:12+00:00'
+timestamp: '2024-01-05T08:17:10+00:00'
 requested_by: hicmtrex
 provider: github
 branch: main
@@ -16,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/hicmtrex/react-circleci
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -26,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hicmtrex/react-circleci/blob/main/package.json
   detection_source: package.json
   last_updated_by: hicmtrex
   last_updated_on: 2023-03-28 15:57:30.000000000 Z
@@ -38,6 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/hicmtrex/react-circleci
   detection_source: Repo Metadata
 - name: React
   description: A JavaScript library for building user interfaces
@@ -61,6 +64,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hicmtrex/react-circleci
   detection_source: Repo Metadata
 - name: Vite
   description: Native-ESM powered web dev build tool
@@ -71,6 +75,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/hicmtrex/react-circleci/blob/main/package.json
   detection_source: package.json
   last_updated_by: hicmtrex
   last_updated_on: 2023-03-28 15:57:30.000000000 Z
@@ -82,6 +87,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hicmtrex/react-circleci/blob/main/package.json
   detection_source: package.json
   last_updated_by: hicmtrex
   last_updated_on: 2023-03-28 15:57:30.000000000 Z
