@@ -2,7 +2,7 @@ repo_name: hicmtrex/react-circleci
 report_id: e7b795a523068ce19c1ed72fa3bbb3aa
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:17:10+00:00'
+timestamp: '2024-02-29T19:10:07+00:00'
 requested_by: hicmtrex
 provider: github
 branch: main
@@ -147,6 +147,13 @@ tools:
   last_updated_by: hicmtrex
   last_updated_on: 2023-03-28 16:08:20.000000000 Z
   vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
   - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
       (//)
     cve_id: CVE-2023-34092
